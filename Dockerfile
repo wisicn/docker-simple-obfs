@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Leo <liaohuqiu@gmail.com>
 
-ENV SIMPLE_OBFS_VER 0.0.3
+ENV SIMPLE_OBFS_VER 0.0.2
 ENV SIMPLE_OBFS_URL https://github.com/shadowsocks/simple-obfs/archive/v$SIMPLE_OBFS_VER.tar.gz
 ENV SIMPLE_OBFS_DIR simple-obfs-$SIMPLE_OBFS_VER
 
