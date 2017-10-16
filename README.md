@@ -1,3 +1,5 @@
+This is clone from https://github.com/liaohuqiu/docker-simple-obfs. thanks liaohuqiu at Github.
+
 This is the [simple-obfs](https://github.com/shadowsocks/simple-obfs) docker image. It's based on alpine and only 4MB.
 
 Since there are a lot of parameters and you may want to use simple-obfs in various ways, so I did not provide any entrypoint for this image.
