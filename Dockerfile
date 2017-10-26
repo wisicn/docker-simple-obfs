@@ -12,6 +12,8 @@ RUN set -ex \
                           asciidoc \
                           xmlto \
                           libpcre32 \
+                          c-ares \
+                          zlib \
     && apk add --no-cache \
                --virtual TMP autoconf \
                              automake \
