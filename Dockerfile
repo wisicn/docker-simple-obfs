@@ -9,11 +9,8 @@ RUN set -ex \
                           pcre \
                           udns \
                           openssl \
-                          asciidoc \
-                          xmlto \
                           libpcre32 \
                           c-ares \
-                          zlib \
     && apk add --no-cache \
                --virtual TMP autoconf \
                              automake \
