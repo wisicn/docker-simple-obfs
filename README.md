@@ -37,3 +37,7 @@ docker run -d --restart=always -p 8443:8443 --name simple-obfs liaohuqiu/simple-
 If your shadowsocks are running on your host, listening at 127.0.0.0, and your container is not using `--net=host`. The IP address 127.0.0.1 is the loopback IP in the container,
 
 You can use the docker0 IP or the host interface IP. But that depends on which IP the shadowsocks is listening on.
+
+### Update
+
+2018/05/01
